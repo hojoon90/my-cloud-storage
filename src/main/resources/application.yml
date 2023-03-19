@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://192.168.55.231:6303/MCS
+    username: root
+    password: root
+
+mybatis:
+  type-aliases-package: com.mycloud.domain
+  mapper-locations: mybatis/mapper/*.xml
