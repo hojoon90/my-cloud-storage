@@ -6,5 +6,5 @@ spring:
     password: root
 
 mybatis:
-  type-aliases-package: com.mycloud.mapper  // Mapper.java 파일이 위치한 경로
+  type-aliases-package: com.mycloud.repository  #Mapper.java 파일이 위치한 경로
   mapper-locations: mybatis/mapper/*.xml
